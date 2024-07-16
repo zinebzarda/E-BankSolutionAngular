@@ -73,31 +73,53 @@ cd ../backend
 
 ## Déploiement avec Docker
 docker build -t e-bank-backend .
+
 docker run -p 8080:8080 e-bank-backend
 
 ## Structure du Projet
 
 e-bank/
+
 ├── backend/
+
 │ ├── src/
+
 │ │ ├── main/
+
 │ │ │ ├── java/com/bank/ebank/
+
 │ │ │ │ ├── controller/
+
 │ │ │ │ ├── model/
+
 │ │ │ │ ├── repository/
+
 │ │ │ │ ├── service/
+
 │ │ │ │ └── EBankApplication.java
+
 │ │ └── resources/
+
 │ │ └── application.properties
+
 ├── frontend/
+
 │ ├── src/
+
 │ │ ├── app/
+
 │ │ │ ├── components/
+
 │ │ │ ├── services/
+
 │ │ │ ├── models/
+
 │ │ │ ├── app.module.ts
+
 │ │ │ └── app.component.ts
+
 └── README.md
+
 
 
 ## Contributeurs
