@@ -79,25 +79,30 @@ docker run -p 8080:8080 e-bank-backend
 
 e-bank/
 ├── backend/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/bank/ebank/
-│   │   │   │   ├── controller/
-│   │   │   │   ├── model/
-│   │   │   │   ├── repository/
-│   │   │   │   ├── service/
-│   │   │   │   └── EBankApplication.java
-│   │   └── resources/
-│   │       └── application.properties
+│ ├── src/
+│ │ ├── main/
+│ │ │ ├── java/com/bank/ebank/
+│ │ │ │ ├── controller/
+│ │ │ │ ├── model/
+│ │ │ │ ├── repository/
+│ │ │ │ ├── service/
+│ │ │ │ └── EBankApplication.java
+│ │ └── resources/
+│ │ └── application.properties
 ├── frontend/
-│   ├── src/
-│   │   ├── app/
-│   │   │   ├── components/
-│   │   │   ├── services/
-│   │   │   ├── models/
-│   │   │   ├── app.module.ts
-│   │   │   └── app.component.ts
+│ ├── src/
+│ │ ├── app/
+│ │ │ ├── components/
+│ │ │ ├── services/
+│ │ │ ├── models/
+│ │ │ ├── app.module.ts
+│ │ │ └── app.component.ts
 └── README.md
+
+
+## Contributeurs
+ZARDA ZINEB 
+zinebzarda1@gmail.com
 
 
 
